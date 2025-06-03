@@ -578,3 +578,7 @@ display: block; /* Memastikan gambar ditampilkan sebagai blok */
         margin-right: 0 !important;
     }
 }
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
