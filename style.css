@@ -68,6 +68,8 @@ a {
 /* Smooth Scroll */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 /* Scroll Progress Bar */
@@ -448,8 +450,8 @@ h2 {
 .section-title {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 0.9rem;
-    white-space: nowrap;
     font-family: var(--font-sans);
 }
 
